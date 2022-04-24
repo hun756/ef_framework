@@ -3,7 +3,7 @@
 /**
  * closing error erport
  */
-error_reporting(E_ERROR);
+// error_reporting(E_ERROR);
 
 /**
  * Application starting point..!

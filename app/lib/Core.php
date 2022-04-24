@@ -24,7 +24,7 @@ class Core {
         require_once('./app/controller/' . $this->currentController . '.php');
 
         // instantiate
-        $this->controller = new $this->currentController;
+        $this->currentController = new $this->currentController;
 
         // seconda checking, uri parameters (For method)
         if(isset($uri[1])) {
@@ -35,13 +35,11 @@ class Core {
                 unset($uri[1]);
             }
         }
-
         // next parse param in uri
         $this->params = $uri ? array_values($uri) : [];
 
         // callback with parameters
-        call_user_func_array([$this->currentController, $this->currentMethod], $this->params);
-
+        call_user_func_array(array($this->currentController, $this->currentMethod), $this->params);
     }
     
 

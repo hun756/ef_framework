@@ -1,15 +1,15 @@
 <?php
 
-class Welcome {
+class Welcome extends Controller {
     public function __construct() {
-        echo 'pages loaded';
     }
 
-    // public function index() {
-        
-    // }
+    // check data
+    public function index() {
+        $this->view('pages/index', ['title' => 'Welcome']);
+    }
 
-    public function about($id) {
-        echo $id;
+    public function about() {
+        $this->view('pages/about');
     }
 }
