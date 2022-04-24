@@ -6,7 +6,10 @@ class Welcome extends Controller {
 
     // check data
     public function index() {
-        $this->view('pages/index', ['title' => 'Welcome']);
+        $data = [
+            'title' => 'welcome',
+        ];
+        $this->view('pages/index', $data);
     }
 
     public function about() {

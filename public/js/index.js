@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-    alert('hi');
+    alert('Hello, Welcome to EF FrameWork..!');
 })

@@ -25,13 +25,13 @@
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Docs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -41,9 +41,9 @@
 
         <!-- Jumbotron -->
         <div class="p-5 text-center bg-light">
-            <h1 class="mb-3">Hi from EF Framework...!</h1>
-            <h4 class="mb-3">Subheading</h4>
-            <a class="btn btn-primary" href="" role="button">Call to action</a>
+            <h1 class="mb-3">Hello from EF Framework...!</h1>
+            <h4 class="mb-3">This is a simple PHP MVC Framework ...</h4>
+            <a class="btn btn-primary" href="" role="button">Learn More</a>
         </div>
         <!-- Jumbotron -->
     </header>
