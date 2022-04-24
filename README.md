@@ -1,9 +1,22 @@
-# EF FRAMEWORK
-## This is simple, fast and minimal PHP MVC Framework.
+
+<center> 
+    <h1>EF FRAMEWORK</h1>
+    <img src="img_resources/ef_framework.png" alt="Ef Screenshoot">
+    <br>
+    <br>
+    <h2>This is simple, fast and minimal PHP MVC Framework.</h2>
+</center>
+<br>
+<br>
 
 ![alt](img_resources/img01.png)
 
-#####  Creating Controller :
+#### Serve project :
+```console
+php -S localhost:3000
+```
+
+####  Creating Controller :
 ```php
 class Welcome extends Controller {
     public function __construct() {
@@ -27,7 +40,7 @@ class Welcome extends Controller {
 
 ```
 
-#####  Creating Model :
+#### Creating Model :
 ```php
 <?php
 class Post {
@@ -46,7 +59,7 @@ class Post {
 
 ```
 
-##### Using model in controller :
+#### Using model in controller :
 ```php
 class Welcome extends Controller {
     public function __construct() {
@@ -69,7 +82,7 @@ class Welcome extends Controller {
 
 ```
 
-#### Usage Data in controller
+#### Usage Data in View
 ```html
 <div class="container">
     <h5>Test For Database Data</h5>
