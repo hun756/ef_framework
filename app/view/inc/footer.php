@@ -1,3 +1,4 @@
+<?php /* disable to detext hack language */ ?>
 <!--footer starts from here-->
 <footer class="footer">
     <div class="container bottom_border">

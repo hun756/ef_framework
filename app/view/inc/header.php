@@ -1,3 +1,4 @@
+<?php /* disable to detext hack language */ ?>
 <!DOCTYPE html>
 <html lang="en">
 
