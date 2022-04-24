@@ -1,11 +1,11 @@
 
-<center> 
+<div align="center"> 
     <h1>EF FRAMEWORK</h1>
     <img src="img_resources/ef_framework.png" alt="Ef Screenshoot">
     <br>
     <br>
     <h2>This is simple, fast and minimal PHP MVC Framework.</h2>
-</center>
+</div>
 <br>
 <br>
 
